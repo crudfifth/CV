@@ -1,0 +1,81 @@
+doctype
+html(lang="ja" dir="ltr")
+  head
+    meta(charset="UTF-8")
+    link(rel="stylesheet" href="./css/reset.css")
+    link(rel="stylesheet" href="./css/main.css")
+    title.kanji-name
+  body
+    header.header
+      h1 履歴書
+      span#today
+    main
+      section.personal-data
+        dl.name-box
+          dt(aria-labelledby="kana-name") フリガナ
+          dd#kana-name
+          dt(aria-labelledby="kanji-name") 氏名
+          dd#kanji-name 
+        dl.info-box
+          dt(aria-labelledby="date-of-birth") 生年月日
+          dd#date-of-birth
+          dt(aria-labelledby="gender") 性別
+          dd#gender
+        img(src="./img/TT.JPG" width="100" height="auto")
+        dl.address-box
+          dt(aria-labelledby="post-code") 〒
+          dd#post-code
+          dt(aria-labelledby="kana-address") フリガナ
+          dd#kana-address
+          dt(aria-labelledby="kanji-address") 現住所
+          dd#kanji-address
+        dl.phone-box
+          dt(aria-labelledby="mobile-phone") 電話番号
+          dd#mobile-phone
+          dt(aria-labelledby="home-phone") 自宅番号
+          dd#home-phone
+      
+      section.educational-background
+        table
+          thead
+            tr
+              th 年
+              th 月
+              th 学歴
+          tbody
+            tr
+              td 
+              td 
+              td 
+  
+      section.work-history
+        table
+          thead
+            tr
+              th 年
+              th 月
+              th 職歴
+          tbody
+            tr
+              td 
+              td 
+              td 
+  
+      section.qualification
+        table
+          thead
+            tr
+              th 年
+              th 月
+              th 資格
+          tbody
+            tr
+              td 
+              td 
+              td 
+
+      script(type="text/javascript" charset="utf-8" src="./js/main.js")
+    
+
+
+    

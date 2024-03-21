@@ -1,0 +1,12 @@
+body {
+  width: 50vw;
+  margin: 10vh auto;
+}
+body .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
